@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ATMCashService
+Bundle-SymbolicName: ATMCashService
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: ATMCashService
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.atm.user,
+ org.osgi.framework;version="1.9.0",
+ org.osgi.util.tracker;version="1.5.2"
+Export-Package: org.atm.cash,
+ org.atm.cash.service

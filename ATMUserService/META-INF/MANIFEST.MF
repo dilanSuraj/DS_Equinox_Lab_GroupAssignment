@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ATMUserService
+Bundle-SymbolicName: ATMUserService
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: ATMUserService
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.osgi.framework;version="1.9.0"
+Export-Package: org.atm.user,
+ org.atm.user.service
